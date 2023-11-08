@@ -25,6 +25,10 @@ class CfgMainMenuSpotlight
 	{
 		picture = "ctb_splash\data\fukfuk.paa";
 	};
+	class ctb_joinServer_3: ctb_joinServer_1
+	{
+		picture = "ctb_splash\data\airborne.paa";
+	};
 	//Hide others
 	delete Tanks_Campaign_01;
 	delete Bootcamp;

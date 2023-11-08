@@ -14,12 +14,6 @@ class CfgPatches
 
 class CfgMainMenuSpotlight
 {
-  class ctb_joinServer_1;
-  class ctb_joinServer_ws: ctb_joinServer_1
-	{
-		picture = "ctb_splash\data\airborne.paa";
-    video = "lxws\missions_f_lxws\Video\spotlight_extraction.ogv";
-	};
   delete Extraction_lxWS;
 	delete Showcase_Alchemist_lxWS;
 	delete Showcase_VR_lxWS;
