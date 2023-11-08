@@ -8,13 +8,19 @@ class CfgPatches
 		requiredAddons[] = {"A3_Data_F_AoW_Loadorder", "data_f_lxWS_Loadorder"};
 		units[] = {};
 		weapons[] = {};
-    skipWhenMissingDependencies = 1;
+		skipWhenMissingDependencies = 1;
 	};
 };
 
 class CfgMainMenuSpotlight
 {
-  delete Extraction_lxWS;
+  class ctb_joinServer_1;
+  class ctb_joinServer_ws: ctb_joinServer_1
+	{
+		picture = "ctb_splash\data\airborne.paa";
+    video = "lxws\missions_f_lxws\Video\spotlight_extraction.ogv";
+	};
+	delete Extraction_lxWS;
 	delete Showcase_Alchemist_lxWS;
 	delete Showcase_VR_lxWS;
 };

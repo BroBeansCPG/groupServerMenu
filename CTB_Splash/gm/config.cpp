@@ -8,10 +8,10 @@ class CfgPatches
 		requiredAddons[] = {"A3_Data_F_AoW_Loadorder", "gm_characters_xx_revolutionaries"};
 		units[] = {};
 		weapons[] = {};
-    skipWhenMissingDependencies = 1;
+		skipWhenMissingDependencies = 1;
 	};
 };
 class CfgMainMenuSpotlight
 {
-  delete gm_campaign_01;
+	delete gm_campaign_01;
 };

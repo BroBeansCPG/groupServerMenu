@@ -8,7 +8,7 @@ class CfgPatches
 		requiredAddons[] = {"A3_Data_F_AoW_Loadorder", "WW2_SPE_Missions_p_Cutscene_p"};
 		units[] = {};
 		weapons[] = {};
-    skipWhenMissingDependencies = 1;
+		skipWhenMissingDependencies = 1;
 	};
 };
 
